@@ -1,0 +1,76 @@
+.navega{
+    background: #025949;
+}
+.all-tags{
+    
+  
+    width: 300px;
+    height: 380px;
+    overflow-y: scroll;
+}
+
+.tags-action{
+    display: inline;
+    position: relative;
+    width: 180px;
+    height: 380px;
+    overflow-y: scroll;
+    margin-left: 60px;
+}
+
+.btn-add{
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.cancha{
+  
+}
+
+.no-select{
+    user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    max-height: 430px;
+}
+
+.tabla{
+    height: 315px;
+    overflow-y: scroll;
+    
+    scroll-behavior: smooth;
+}
+
+.chronoTable{
+    
+    height: 50%;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.data{
+    padding: 1% 20px 0 20px;
+    
+    height: 45%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tags{
+    height: 420px;
+    
+    padding: 1% 20px 0 20px;
+    overflow-x: scroll;
+
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
